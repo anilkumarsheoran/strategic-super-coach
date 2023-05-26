@@ -13,7 +13,7 @@ const MessageForm = () => {
   };
 
   return (
-    <form className="relative mx-auto max-w-3xl " onSubmit={handleSubmit}>
+    <form className="relative mx-auto max-w-3xl mb-16 " onSubmit={handleSubmit}>
       <div className=" border-gray-200 h-[130px] mx-4  ">
         {/* <label htmlFor="content" className="sr-only">
           Your message
